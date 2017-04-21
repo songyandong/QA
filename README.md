@@ -12,3 +12,20 @@ Date.prototype.toJSON = function () {
     var result = this.getFullYear() + '-' + (this.getMonth() * 1 + 1) + '-' + this.getDate();
     return result;
 }
+
+ng2
+IE浏览器Get方法缓存问题
+重写HTTP模块的get方法,添加一个随机时间戳参数.
+@Injectable()
+class NewHttp extends Http {
+    constructor(_backend: ConnectionBackend, _defaultOptions: RequestOptions) {
+        super(_backend, _defaultOptions);
+    }
+
+    get(url: string, options?: RequestOptionsArgs): Observable<Response> {
+        在url上添加timestamp
+    }
+
+    /* post(...)
+     ...*/
+}
