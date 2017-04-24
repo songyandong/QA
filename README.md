@@ -29,3 +29,6 @@ class NewHttp extends Http {
     /* post(...)
      ...*/
 }
+
+css
+数字的折行样式:word-wrap: break-word;
