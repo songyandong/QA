@@ -9,6 +9,8 @@ Date.prototype.toJSON = function () {
     var result = this.getFullYear() + '-' + (this.getMonth() * 1 + 1) + '-' + this.getDate();
     return result;
 }
+jquery.printarea.js 应用到有body{height:100%}样式的页面上,将会导致打印时出现一个空白页.
+需要在生成html的时候再body上加上height:auto.
 
 ng2
 IE浏览器Get方法缓存问题
