@@ -32,3 +32,6 @@ class NewHttp extends Http {
 css
 数字的折行样式:word-wrap: break-word;
 超长显示...时,可以指定百分比长度.
+
+ionic2 微信浏览器安全支持
+sanitizer: DomSanitizer:安卓机可以,苹果机器不行.
