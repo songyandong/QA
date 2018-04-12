@@ -1,4 +1,9 @@
 # QA
+npm install 疯狂失败的问题。
+结果是node版本和npm版本不一致的问题。另外主要注意node最新版支持的npm不是最新版。
+https://github.com/npm/npm/issues/19989
+https://nodejs.org/en/download/
+
 primeng
 组件p-spinner并没有[style]属性,如果指定并不存在的属性,老版本的谷歌浏览器会包Cannot set property style of [object Object] which has only a getter
 
